@@ -1,0 +1,75 @@
+<?php
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Products Language Lines
+    |--------------------------------------------------------------------------
+    */
+
+    'id' => 'ID',
+    'code' => 'Code',
+    'part_number' => 'Part Number',
+    'model' => 'Model',
+    'brand' => 'Brand',
+    'family' => 'Family',
+    'scale' => 'Scale',
+    'color' => 'Color',
+    'technology' => 'Technology',
+    'state' => 'State',
+    'product_type' => 'Product Type',
+    'description' => 'Description',
+
+    'regex_colors' => [
+        "BLCK/BLCK" => "BLACK-BLACK", 
+        "BLCK/GRAY" => "BLACK-GRAY", 
+        "BLCK+GUN META" => "BLACK-GUN METAL",
+        "BLCK/GUN META" => "BLACK-GUN METAL", 
+        "BLCK/RED" => "BLACK-RED", 
+        "BLCK RED" => "BLACK-RED", 
+        "BLCK-RED" => "BLACK-RED", 
+        "BLCK/GREE" => "BLACK-GREEN", 
+        "BLCK/ORAN" => "BLACK-ORANGE", 
+        "BLCK/YELL" => "BLACK-YELLOW", 
+        "BLCK/BLUE" => "BLACK-BLUE", 
+        "BLCK+RED" => "BLACK-RED", 
+        "BLCK+BLUE" => "BLACK-BLUE", 
+        "BLCK-SILV" => "BLACK-SILVER",
+        "BLCK/SILV" => "BLACK-SILVER",
+        "BLCK/GRAP" => "BLACK-GRAPE",
+        "WHIT/PINK" => "WHITE-PINK", 
+        "WHIT/WHIT" => "WHITE-WHITE", 
+        "WHIT/LIGH BLUE" => "WHITE-LIGHT BLUE", 
+        "WHIT/LIGH GRAY" => "WHITE-LIGHT GRAY", 
+        "WHIT/BLUE" => "WHITE-BLUE", 
+        "WHIT-BLUE" => "WHITE-BLUE", 
+        "WHIT/DARK BLUE" => "WHITE-DARK BLUE", 
+        "WHIT/BROW" => "WHITE-BROWN", 
+        "WHIT-GOLD" => "WHITE-GOLD", 
+        "WHIT/GOLD" => "WHITE-GOLD",
+        "NEGR" => "BLACK", 
+        "BLCK" => "BLACK",
+        "WHIT" => "WHITE", 
+        "BLAN" => "WHITE",
+        "META GRAY" => "METAL GRAY",
+        "META" => "METAL GRAY",
+        "PURP" => "PURPLE",
+        "RED" => "RED",
+        "BLUE" => "BLUE",
+        "GRAY" => "GRAY",
+        "GRAP" => "GRAPE",
+        "PINK" => "PINK",
+        "GREE" => "GREEN",
+        "ORAN" => "ORANGE",
+        "FUCS" => "FUCHSIA",
+        "FUCH" => "FUCHSIA",
+        "SILV" => "SILVER",
+        "SILVER" => "SILVER",
+        "GOLD" => "GOLD",
+        "GUN META" => "GUN METAL",
+    ],
+
+    'product_sincronize_request' => 'The products will be synchronized with Dinamics GP. Do you want to continue?',
+    'product_sincronize_success' => 'Synchronization with Dinamics GP was satisfactory',
+];
