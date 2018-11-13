@@ -1,4 +1,4 @@
-# Akkar Global Services
+# Yezz Warranty System
 
 This document provides you with an insight into the most important things to develop for the Akkar Global Services Project
 
@@ -24,7 +24,7 @@ This document provides you with an insight into the most important things to dev
    5. [Variable Namings](#variable-namings)
 
 ## Requirements
-1. PHP 5.5+
+1. PHP 7.1+
 2. MySQL 5.5+
 3. Apache2 or Nginx webserver
 4. [Composer](https://getcomposer.org/)
@@ -37,7 +37,7 @@ This document provides you with an insight into the most important things to dev
 
 Clone gitlab repository
 ```
-git clone https://gitlab.com/development.yezzcorp/akkarglobalservices.git
+git clone https://github.com/julioserpone/yezz-yws.git
 ```
 
 Enter project directory and run dependency install
@@ -83,10 +83,10 @@ vagrant provision
 ## Structure
 
 ##### MVC (Model-View-Controller)
-- [Models](http://laravel.com/docs/5.2/eloquent) - app/Models
-- [Views](http://laravel.com/docs/5.2/views) - resources/views/
-- [Front-end Controllers](http://laravel.com/docs/5.2/controllers) - app/Http/Frontend/Controllers/
-- [Back-end Controllers](http://laravel.com/docs/5.2/controllers) - app/Http/Backend/Controllers/
+- [Models](http://laravel.com/docs/5.5/eloquent) - app/Models
+- [Views](http://laravel.com/docs/5.5/views) - resources/views/
+- [Front-end Controllers](http://laravel.com/docs/5.5/controllers) - app/Http/Frontend/Controllers/
+- [Back-end Controllers](http://laravel.com/docs/5.5/controllers) - app/Http/Backend/Controllers/
 
 ##### Public assets
 - Assets are stored in public/ directory
@@ -96,12 +96,12 @@ vagrant provision
 - Fonts files - public/fonts/
 - Plugins Jquery files - public/plugins/
 
-##### [Config](http://laravel.com/docs/5.2/configuration)
+##### [Config](http://laravel.com/docs/5.5/configuration)
 
 - Main configuration you can find in your enviroment file ( .env ) under project root directory
 - Configuration files are listed under config/ directory
 
-##### [Middleware](http://laravel.com/docs/5.2/middleware)
+##### [Middleware](http://laravel.com/docs/5.5/middleware)
 
 - Listed under app/Http/Middleware directory
 - Also known as filters
@@ -117,7 +117,7 @@ Route middlewares list under
 protected $routeMiddleware = [];
 ```
 
-##### [Requests](http://laravel.com/docs/5.2/requests)
+##### [Requests](http://laravel.com/docs/5.5/requests)
 
 - Listed under app/Http/Requests
 - Request is validator for method used on
